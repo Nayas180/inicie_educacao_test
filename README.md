@@ -14,11 +14,14 @@ Users
 Parametros
 
 Email,
+
 name,
+
 genero -- male or female
 
 
 -> Função: Listar todos os usuarios da API -- VERB: POST  URL: /api/v1/user/index
+
 -> Função: Listar um usuario apartir do ID -- VERB: POST  URL: /api/v1/user/show/{id_do_usuario}
 
 ----------------------------------------------------------------------------------
@@ -29,7 +32,9 @@ New Post
 Parametros
 
 id_user,
+
 title,
+
 body
 
 ----------------------------------------------------------------------------------
@@ -40,6 +45,9 @@ New Comment
 Parametros
 
 id_post,
+
 name,
+
 email,
+
 body
