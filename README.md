@@ -51,3 +51,10 @@ name,
 email,
 
 body
+
+## Observação
+
+No arquivo .env será necessario adicionar duas variaveis, chamadas de 
+
+TOKEN_GOREST="" // Contendo o token de acesso da API, em volta das aspas dupla;
+BASE_URL_API="https://gorest.co.in/public/v2"
